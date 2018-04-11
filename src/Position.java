@@ -1,5 +1,11 @@
 
 public class Position {
-	int latittude;
-	int longitude;
+	
+	private int latittude;
+	private int longitude;
+	
+	public Position() {
+		this.latittude=0;
+		this.longitude=0;
+	}
 }
